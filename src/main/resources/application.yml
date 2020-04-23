@@ -61,5 +61,9 @@ spring:
           destination: moviereviews
           contentType: application/json
 
+api:
+  url:
+    payment: http://review:8080
+
 server:
   port: 8081
