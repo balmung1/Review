@@ -1,6 +1,6 @@
 package moviereviews;
 
-public class ReviewDeleted extends AbstractEvent {
+public class MovieInfoCreated extends AbstractEvent {
 
     private Long id;
     private String title;
@@ -9,7 +9,7 @@ public class ReviewDeleted extends AbstractEvent {
     private String reviewContents;
     private String reviewer;
 
-    public ReviewDeleted(){
+    public MovieInfoCreated(){
         super();
     }
 
@@ -27,7 +27,6 @@ public class ReviewDeleted extends AbstractEvent {
     public void setTitle(String title) {
         this.title = title;
     }
-
     public String getOpenStatus() {
         return openStatus;
     }
